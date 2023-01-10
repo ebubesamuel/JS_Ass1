@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="program.js"></script>
+</head>
+<body>
+    <!-- <div>Mix-or-Match Memory Game</div> -->
+    <h1>Menu</h1>
+    <br><br>
+    <form action="" method="POST">
+        <label>Grid Size: </label><br><br>
+        <ul>
+            <li class="item">
+                <select name="grid" id="#">
+                    <optgroup>
+                        <option value="3x4">3 BY 4</option>
+                        <option value="4x4">4 BY 4</option>
+                        <option value="5x4">5 BY 4</option>
+                    </optgroup>
+                </select>
+            </li> <br>
+
+            <label>Players</label>
+            <li class="item">
+                <select name="players" id="#">
+                    <optgroup>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </optgroup>
+                </select>
+            </li>
+            <br>
+
+            <label>Card Type</label>
+            <li class="item">
+                <select name="card-set" id="#">
+                    <optgroup>
+                        <option value="cats">Cats</option>
+                        <option value="dogs">Dogs</option>
+                        <option value="dinosaurs">Dinosaurs</option>
+                    </optgroup>
+                </select>
+            </li>
+        </ul>
+        <br><br>
+            <button class="button-submit" role="button" type="submit">Start</button>
+            
+    </form>
+<!-- ------------------------------------------------ -->
+    <section class="memory_game">
+        <div class="memory_card" data-framework="cat">
+            <img class="front-face_card" src="images/cat.png" alt="cat card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="cat">
+            <img class="front-face_card" src="images/cat.png" alt="cat card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+
+        <div class="memory_card" data-framework="dinosaur">
+            <img class="front-face_card" src="images/dinosaur.png" alt="dinosaur card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="dinosaur">
+            <img class="front-face_card" src="images/dinosaur.png" alt="dinosaur card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div> 
+
+        <div class="memory_card" data-framework="dog">
+            <img class="front-face_card" src="images/dog.png" alt="dog card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="dog">
+            <img class="front-face_card" src="images/dog.png" alt="dog card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+
+        <div class="memory_card" data-framework="cat">
+            <img class="front-face_card" src="images/cat.png" alt="cat card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="cat">
+            <img class="front-face_card" src="images/cat.png" alt="cat card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+
+        <div class="memory_card" data-framework="dinosaur">
+            <img class="front-face_card" src="images/dinosaur.png" alt="dinosaur card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="dinosaur">
+            <img class="front-face_card" src="images/dinosaur.png" alt="dinosaur card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div> 
+
+        <div class="memory_card" data-framework="dog">
+            <img class="front-face_card" src="images/dog.png" alt="dog card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        <div class="memory_card" data-framework="dog">
+            <img class="front-face_card" src="images/dog.png" alt="dog card">
+            <img class="question_card" src="images/question_card.png" alt="back-face">
+        </div>
+        
+    </section>
+
+<script src="program.js"></script>
+</body>
+</html> 
+
+
